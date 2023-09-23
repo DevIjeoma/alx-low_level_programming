@@ -10,14 +10,14 @@
 
 int main(void)
 {
-	
-	int b;
+	int d;
 	char low;
 
-for (b = '0'; b <= '9'; b++)
-putchar(b);
-	for (low = 'A'; low <= 'F'; low++)
-			putchar(low);
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
+	for (low = 'a'; low <= 'f'; low++)
+		putchar(low);
 	putchar('\n');
+
 	return (0);
 }
