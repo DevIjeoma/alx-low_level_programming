@@ -10,10 +10,11 @@
 
 int main(void)
 {
-	int low;
-for (low = '0'; low <= '9'; low++)
-	putchar(low);
-	putchar('\n');
+	int i;
+
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
 
 	return (0);
 }
